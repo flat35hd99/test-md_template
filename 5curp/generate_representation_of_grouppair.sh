@@ -3,14 +3,14 @@
 module purge
 
 if [[ "$(hostname)" =~ flow ]];then
-    source $TEMPLATE_PROJECT_PREFIX/util/load_pinter
+    source $PREFIX_TEST_TEMPLATE/util/load_pinter
 else
-    source $TEMPLATE_PROJECT_PREFIX/util/load_pinter_ims
+    source $PREFIX_TEST_TEMPLATE/util/load_pinter_ims
 fi
 
 set -eu
 
-cd $TEMPLATE_PROJECT_PREFIX/5curp
+cd $PREFIX_TEST_TEMPLATE/5curp
 
 if [ -e group_pair/ ]; then mkdir group_pair/; fi
 

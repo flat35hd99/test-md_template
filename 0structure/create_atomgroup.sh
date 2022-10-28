@@ -4,7 +4,7 @@
 #PJM --mpi proc=1
 #PJM -j
 
-prefix=$TEMPLATE_PROJECT_PREFIX
+prefix=$PREFIX_TEST_TEMPLATE
 
 source $prefix/util/load_amber
 module load python/3.7.7
