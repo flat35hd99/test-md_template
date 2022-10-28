@@ -1,19 +1,19 @@
-# TEMPLATE_SYSTEM_NAME
+# hp36
 
 <!-- Write details of your system -->
 
 ## Requirements
 
-- `TEMPLATE_PROJECT_PREFIX`
+- `PREFIX_TEST_TEMPLATE`
 - conda environment
 
 ### Environment variable to detect project directory path
 
-`TEMPLATE_PROJECT_PREFIX` to detect project directory.
+`PREFIX_TEST_TEMPLATE` to detect project directory.
 
-If this repository located in `/home/flat35hd99/ytva/` and the directory name is `dark` (See below tree), `TEMPLATE_PROJECT_PREFIX=/home/flat35hd99/ytva/dark`. Don't add slash ("/") in the last of the variable.
+If this repository located in `/home/flat35hd99/ytva/` and the directory name is `dark` (See below tree), `PREFIX_TEST_TEMPLATE=/home/flat35hd99/ytva/dark`. Don't add slash ("/") in the last of the variable.
 
-I recommend you to add `export TEMPLATE_PROJECT_PREFIX=/path/to/directory` into `.bashrc` or other script that is loaded in initialization of CLI.
+I recommend you to add `export PREFIX_TEST_TEMPLATE=/path/to/directory` into `.bashrc` or other script that is loaded in initialization of CLI.
 
 ```
 ytva/

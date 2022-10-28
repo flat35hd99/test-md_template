@@ -10,7 +10,7 @@ run=${specify_job_id:0:2}
 smp=${specify_job_id:2:1}
 
 # Set appropriate environment
-prefix=$TEMPLATE_PROJECT_PREFIX
+prefix=$PREFIX_TEST_TEMPLATE
 
 module purge
 source $prefix/util/load_amber_on_cloud

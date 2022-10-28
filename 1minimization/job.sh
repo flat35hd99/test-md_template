@@ -5,7 +5,7 @@
 #PJM --mpi proc=1
 #PJM -S
 
-prefix=$TEMPLATE_PROJECT_PREFIX
+prefix=$PREFIX_TEST_TEMPLATE
 
 module purge
 source $prefix/util/load_amber_gpu

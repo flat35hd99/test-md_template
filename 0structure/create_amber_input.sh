@@ -21,7 +21,7 @@ multiplicity=1
 # ---------------------
 # Files and directories
 # ---------------------
-prefix=$TEMPLATE_PROJECT_PREFIX
+prefix=$PREFIX_TEST_TEMPLATE
 
 # input file
 gaussian_esp_file=$prefix/FMN/output/B3LYP_dp_5/${ligand_name}.esp

@@ -1,5 +1,5 @@
 #!/bin/bash
-prefix=$TEMPLATE_PROJECT_PREFIX
+prefix=$PREFIX_TEST_TEMPLATE
 
 module purge
 source $prefix/util/load_curp

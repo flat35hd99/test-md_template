@@ -1,6 +1,6 @@
 #!/bin/bash
 
-prefix=$TEMPLATE_PROJECT_PREFIX
+prefix=$PREFIX_TEST_TEMPLATE
 
 if [ -z "$2" ];then echo "check arguments";exit 1; fi
 

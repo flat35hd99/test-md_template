@@ -1,6 +1,6 @@
 #!/bin/bash
 
-prefix=$TEMPLATE_PROJECT_PREFIX
+prefix=$PREFIX_TEST_TEMPLATE
 run_start=$1
 run_end=$2
 
